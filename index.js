@@ -84,7 +84,7 @@ Use the finalScore function below to do the following:
 
 function finalScore(inning, innsPlayed){ // paramters of inning and innsplayed
   let overallScore = {Home: 0, Away:0}; // this sets home and away to the integers of 0
-  for(let i = 0; i< innsPlayed; i++){ // a for loop for the 9 innings in baseball
+  for(let i = 0; i< innsPlayed; i++){ // a for loop for the 9 innings in baseball !
     const currentScore = inning;
     overallScore.Home =+ currentScore();  // can also be written as overallScore.Home = overallScore.Home + currentScore(); 
     overallScore.Away =+ currentScore();
